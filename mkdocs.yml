@@ -1,0 +1,6 @@
+site_name: My Docs
+site_name: Blacksburg on a Budget
+site_url: https://carolrector.github.io/site
+theme:
+  name: material
+  
