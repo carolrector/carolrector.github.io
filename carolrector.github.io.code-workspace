@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "carolrector.github.io",
+			"path": "."
+		},
+		{
+			"name": "docs",
+			"path": "../../../docs"
+		},
+		{
+			"name": "site",
+			"path": "../../../site"
+		}
+	],
+	"settings": {}
+}
