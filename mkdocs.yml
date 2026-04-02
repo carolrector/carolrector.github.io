@@ -3,4 +3,7 @@ site_name: Blacksburg on a Budget
 site_url: https://carolrector.github.io/site
 theme:
   name: material
+nav:
+  - Blacksburg eats: "index.md"
+  - On a budget: "budget.md"
   
