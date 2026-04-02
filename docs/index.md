@@ -1,6 +1,6 @@
 # Blacksburg Eats
 
-Welcome to Blacksburg Eats, your go-to guide for navigating the local food scene without the guesswork. 
+Welcome to Blacksburg Eats, your go-to guide for navigating the local food scene without the guesswork by JT, Brooke, and Carol.
 
 Whether you are new to town or just looking to switch things up, this guide is built to help you find exactly what you are craving, when you need it. From [quick, affordable bites](#when-youre-on-a-budget) to [sit-down spots perfect for a night out,](#when-youre-going-on-a-date) Blacksburg has more variety than you might expect—and we have organized it to make exploring easy.
 
