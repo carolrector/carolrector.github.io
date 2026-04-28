@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Born to Review</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-dark text-light">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-vinyl-fill me-2"></i>Born to Review
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="eras.html">Album Reviews</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="flex-grow-1">
+
+    <!-- HERO -->
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="display-4 fw-bold">Born to Review</h1>
+          <p class="lead text-secondary">
+            A deep dive into Lana Del Rey’s albums, aesthetics, and eras.
+          </p>
+          <a href="eras.html" class="btn btn-danger btn-lg me-2">Read Reviews</a>
+          <a href="about.html" class="btn btn-outline-light btn-lg">About the Site</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMAGE -->
+    <section class="container mb-5">
+      <img src="images/lana-hero.jpg" class="img-fluid rounded shadow" alt="Lana Del Rey collage">
+    </section>
+
+    <!-- CARDS -->
+    <section class="container mb-5">
+      <h2 class="text-center mb-4">Featured Albums</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card h-100 bg-light text-dark">
+            <img src="images/born-to-die.jpg" class="card-img-top" alt="Born to Die album cover">
+            <div class="card-body">
+              <h3 class="card-title h5">Born to Die</h3>
+              <p class="card-text">Cinematic sadness, glamour, and heartbreak.</p>
+              <a href="eras.html#born-to-die" class="btn btn-dark">Read review</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 bg-light text-dark">
+            <img src="images/nfr.jpg" class="card-img-top" alt="NFR album cover">
+            <div class="card-body">
+              <h3 class="card-title h5">NFR!</h3>
+              <p class="card-text">California softness and emotional depth.</p>
+              <a href="eras.html#nfr" class="btn btn-dark">Read review</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 bg-light text-dark">
+            <img src="images/ocean-blvd.jpg" class="card-img-top" alt="Ocean Blvd album cover">
+            <div class="card-body">
+              <h3 class="card-title h5">Ocean Blvd</h3>
+              <p class="card-text">Poetic, vulnerable, and experimental.</p>
+              <a href="eras.html#ocean-blvd" class="btn btn-dark">Read review</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section class="container mb-5">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/o_1aF54DO60" allowfullscreen></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="mt-auto bg-black text-secondary py-3">
+    <div class="container text-center">
+      © 2026 Born to Review
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
