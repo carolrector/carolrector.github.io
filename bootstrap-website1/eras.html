@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="styles.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Album Reviews | Born to Review</title>
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100 bg-dark text-light">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary">>
     <div class="container">
       <a class="navbar-brand" href="index.html">Born to Review</a>
-
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-vinyl-fill me-2"></i>Born to Review
+      </a>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,7 +25,9 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link active" href="eras.html">Album Reviews</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Album Reviews</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -31,45 +36,129 @@
   <main class="container py-5 flex-grow-1">
     <h1 class="text-center mb-4">Album Reviews</h1>
 
-    <div class="accordion">
+<div class="accordion" id="albumAccordion">
 
-      <div class="accordion-item" id="born-to-die">
-        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#a1">
-          Born to Die
-        </button>
-        <div id="a1" class="accordion-collapse collapse show">
-          <div class="accordion-body">
-            <strong>Rating:</strong> 9.5/10 <br>
-            Cinematic, iconic, and emotionally intense.
-          </div>
-        </div>
+  <!-- Born to Die -->
+  <div class="accordion-item" id="born-to-die">
+    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#a1">
+      Born to Die (2012)
+    </button>
+    <div id="a1" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <img src="images/born-to-die.png" class="img-fluid rounded mb-3" style="max-width:200px;">
+        <p><strong>Rating:</strong> 9/10</p>
+        Cinematic, dramatic, and emotionally intense. This album defined Lana’s identity and introduced her signature themes of love, fame, and melancholy.
+
+        This album is what got me hooked. I absolutely adore the popular songs, "Born to Die", "Blue Jeans", "Video Games", "National Anthem", "Radio", and "Summertime Sadness", as most of the mainstream music listening community does. I think this album might be her most publicly loved album with so many chart-topping hits it's hard to fathom. 
+
+        I also found love for "Million Dollar Man", "Lucky Ones", "Without You", and "Diet Mountain Dew" after diving deeper, though they are so different in tone. It definitely took me a little more time to get into the style of these songs, but now I can't imagine not liking them!
+        
+        I personally think that "Lolita", "Off To The Races", "This Is What Makes Us Girls", and "Carmen" are a little out of my style, hence the slightly lowered score, but I'll still give them a listen every once and a while!
+
+        Overall, I think this is my second favorite album of Lana's, but it is such a close call to make.
       </div>
-
-      <div class="accordion-item" id="nfr">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a2">
-          Norman F***ing Rockwell!
-        </button>
-        <div id="a2" class="accordion-collapse collapse">
-          <div class="accordion-body">
-            <strong>Rating:</strong> 10/10 <br>
-            Lana at her lyrical and emotional peak.
-          </div>
-        </div>
-      </div>
-
-      <div class="accordion-item" id="ocean-blvd">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a3">
-          Ocean Blvd
-        </button>
-        <div id="a3" class="accordion-collapse collapse">
-          <div class="accordion-body">
-            <strong>Rating:</strong> 9/10 <br>
-            Deeply personal and experimental.
-          </div>
-        </div>
-      </div>
-
     </div>
+  </div>
+
+  <!-- Ultraviolence -->
+  <div class="accordion-item">
+    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a2">
+      Ultraviolence (2014)
+    </button>
+    <div id="a2" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <img src="images/ultraviolence.png" class="img-fluid rounded mb-3" style="max-width:200px;">
+        <p><strong>Rating:</strong> 9/10</p>
+        Darker and more rock-inspired, this album leans into raw emotion and stripped-back production.
+      </div>
+    </div>
+  </div>
+
+  <!-- Honeymoon -->
+  <div class="accordion-item">
+    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a3">
+      Honeymoon (2015)
+    </button>
+    <div id="a3" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <img src="images/honeymoon.png" class="img-fluid rounded mb-3" style="max-width:200px;">
+        <p><strong>Rating:</strong> 8.5/10</p>
+        Dreamy, cinematic, and slow-burning. A very atmospheric and aesthetic-focused project.
+      </div>
+    </div>
+  </div>
+
+  <!-- Lust for Life -->
+  <div class="accordion-item">
+    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a4">
+      Lust for Life (2017)
+    </button>
+    <div id="a4" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <img src="images/lust-for-life.png" class="img-fluid rounded mb-3" style="max-width:200px;">
+        <p><strong>Rating:</strong> 8.5/10</p>
+        A brighter, more collaborative album that mixes Lana’s classic sadness with moments of hope.
+      </div>
+    </div>
+  </div>
+
+  <!-- NFR -->
+  <div class="accordion-item" id="nfr">
+    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a5">
+      Norman F***ing Rockwell! (2019)
+    </button>
+    <div id="a5" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <img src="images/nfr.png" class="img-fluid rounded mb-3" style="max-width:200px;">
+        <p><strong>Rating:</strong> 10/10</p>
+        Lana at her lyrical peak—mature, introspective, and beautifully written.
+      </div>
+    </div>
+  </div>
+
+  <!-- Chemtrails -->
+  <div class="accordion-item">
+    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a6">
+      Chemtrails Over the Country Club (2021)
+    </button>
+    <div id="a6" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <img src="images/chemtrails.png" class="img-fluid rounded mb-3" style="max-width:200px;">
+        <p><strong>Rating:</strong> 8/10</p>
+        Soft, introspective, and more minimal—focused on identity and personal reflection.
+      </div>
+    </div>
+  </div>
+
+  <!-- Blue Banisters -->
+  <div class="accordion-item">
+    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a7">
+      Blue Banisters (2021)
+    </button>
+    <div id="a7" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <img src="images/blue-banisters.png" class="img-fluid rounded mb-3" style="max-width:200px;">
+        <p><strong>Rating:</strong> 8.5/10</p>
+        Very personal and stripped down, focusing on storytelling and emotional honesty.
+      </div>
+    </div>
+  </div>
+
+  <!-- Ocean Blvd -->
+  <div class="accordion-item" id="ocean-blvd">
+    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a8">
+      Did You Know That There’s a Tunnel Under Ocean Blvd (2023)
+    </button>
+    <div id="a8" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <img src="images/ocean-blvd.png" class="img-fluid rounded mb-3" style="max-width:200px;">
+        <p><strong>Rating:</strong> 9/10</p>
+        Deeply vulnerable, poetic, and experimental—one of her most complex works.
+      </div>
+    </div>
+  </div>
+
+</div>
   </main>
 
   <footer class="mt-auto bg-dark text-light text-center py-3">

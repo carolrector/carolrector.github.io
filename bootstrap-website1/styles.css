@@ -1,0 +1,90 @@
+
+:root {
+  --dark-blue: #0d1b2a;
+  --blue-accent: #1b263b;
+  --green-accent: #2ec4b6;
+  --purple-accent: #7b2cbf;
+  --light-text: #e0e1dd;
+}
+
+body {
+  background: linear-gradient(135deg, var(--dark-blue), var(--blue-accent));
+  color: var(--light-text);
+}
+
+.navbar {
+  background-color: var(--dark-blue) !important;
+  border-bottom: 1px solid var(--green-accent);
+}
+
+.navbar-brand {
+  color: var(--green-accent) !important;
+}
+
+.nav-link {
+  color: var(--light-text) !important;
+}
+
+.nav-link:hover {
+  color: var(--purple-accent) !important;
+}
+
+
+.btn-danger {
+  background-color: var(--purple-accent);
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #5a189a;
+}
+
+.btn-outline-light {
+  border-color: var(--green-accent);
+  color: var(--green-accent);
+}
+
+.btn-outline-light:hover {
+  background-color: var(--green-accent);
+  color: black;
+}
+
+
+.card {
+  background-color: var(--blue-accent);
+  color: var(--light-text);
+  border: 1px solid var(--purple-accent);
+}
+
+.card .btn {
+  background-color: var(--green-accent);
+  color: black;
+  border: none;
+}
+
+.card .btn:hover {
+  background-color: var(--purple-accent);
+  color: white;
+}
+
+
+.accordion-button {
+  background-color: var(--blue-accent);
+  color: var(--light-text);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--purple-accent);
+  color: white;
+}
+
+.accordion-body {
+  background-color: var(--dark-blue);
+  color: var(--light-text);
+}
+
+
+footer {
+  background-color: var(--dark-blue);
+  color: var(--green-accent);
+}

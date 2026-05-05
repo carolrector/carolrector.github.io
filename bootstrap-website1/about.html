@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="styles.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About | Born to Review</title>
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100 bg-dark text-light">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary">
     <div class="container">
       <a class="navbar-brand" href="index.html">Born to Review</a>
-
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-vinyl-fill me-2"></i>Born to Review
+      </a>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -21,7 +24,9 @@
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
           <li class="nav-item"><a class="nav-link" href="eras.html">Album Reviews</a></li>
         </ul>
       </div>
@@ -30,21 +35,43 @@
 
   <main class="container py-5 flex-grow-1">
     <h1>About Born to Review</h1>
+    <div class="mb-4">
+      <img src="images/lana-perform-2.jpg"
+       class="img-fluid rounded shadow w-100"
+       alt="Lana Del Rey performing"
+       style="height: 600px; object-fit: cover;">
+    </div>
 
     <p>
-      Born to Review is a fan-made site exploring Lana Del Rey’s albums and artistic eras.
-      Each album is reviewed not just for its music, but for its aesthetic, themes, and cultural impact.
+      Born to Review is a fan-made site dedicated to exploring Lana Del Rey’s albums and artistic eras. 
+      Rather than focusing only on the music itself, this site looks at each album as a complete experience, combining sound, visuals, themes, and cultural context. 
+      Lana’s work is known for its strong aesthetic identity, and each era she creates feels like its own world, which makes her discography especially interesting to analyze.
     </p>
 
     <p>
-      Lana’s work evolves across eras—from cinematic tragedy to introspective storytelling—
-      making her discography perfect for deeper analysis and review.
+      Over the course of her career, Lana Del Rey’s music has evolved significantly, moving from the cinematic sadness and glamour of <em>Born to Die</em> to the more introspective and personal storytelling found in her later projects. 
+      Each album reflects a different stage in her life and career, while still maintaining the emotional depth and poetic style that defines her as an artist. 
+      Because of this, her discography offers a unique opportunity to explore how themes like love, identity, fame, and nostalgia develop over time.
     </p>
 
-    <img src="images/lana-about.jpg" class="img-fluid rounded mt-4" alt="Lana Del Rey image">
+    <p>
+      This site was created by a college student and long-time Lana Del Rey fan who has spent years listening to and connecting with her music. 
+      These albums have been part of different phases of my life, and my understanding of them has grown over time through repeated listens, personal reflection, and reading different interpretations online. 
+      Writing these reviews is a way to combine my interest in music, storytelling, and analysis while also sharing something meaningful with others.
+    </p>
+
+    <p>
+      Ultimately, Born to Review is meant to be both a personal project and a space for appreciation. 
+      Whether someone is a dedicated fan or just discovering Lana Del Rey for the first time, this site aims to highlight what makes her work so impactful and worth revisiting. 
+      My goal is to encourage others to listen more closely, think more deeply, and experience these albums in a new way.
+    </p>
+
   </main>
 
   <footer class="mt-auto bg-dark text-light text-center py-3">
+    <p class="small text-secondary">
+        All album artwork is used for educational and review purposes only.
+    </p>
     © 2026 Born to Review
   </footer>
 
