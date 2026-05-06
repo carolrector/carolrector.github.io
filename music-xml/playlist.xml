@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="playlist.xsl"?>
+<playlist>
+  <track>
+    <title>Untitled (How does it feel?)</title>
+    <artist>D'Angelo</artist>
+    <album>Voodoo</album>
+    <link>https://www.youtube.com/watch?v=6QPQtguRdDs</link>
+  </track>
+  <track>
+    <title>Hyperballad</title>
+    <artist>Bjork</artist>
+    <album>Post</album>
+    <link>https://www.youtube.com/watch?v=kye1TOlAWWw</link>
+  </track>
+  <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="playlist.xsl"?>
+  <track>
+    <title>Untitled (How does it feel?)</title>
+    <artist>D'Angelo</artist>
+    <album>Voodoo</album>
+    <link>https://youtu.be/Bag1gUxuU0g?si=0-CzPsWl6Z9ZZhpa</link>
+  </track>
+  <track>
+    <title>Untitled (How does it feel?)</title>
+    <artist>D'Angelo</artist>
+    <album>Voodoo</album>
+    <link>https://youtu.be/aSugSGCC12I?si=Oa2udpHIcr_PBXei</link>
+  </track>
+  <track>
+    <title>Untitled (How does it feel?)</title>
+    <artist>D'Angelo</artist>
+    <album>Voodoo</album>
+    <link>https://youtu.be/bkTqDN26efA?si=8JnfiY6Ik5xLTi4Q</link>
+  </track>
+    <track>
+    <title>Untitled (How does it feel?)</title>
+    <artist>D'Angelo</artist>
+    <album>Voodoo</album>
+    <link>https://youtu.be/TdrL3QxjyVw?si=jteizmFq0IsZ3_d_</link>
+  </track>
+</playlist>
